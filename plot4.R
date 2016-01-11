@@ -35,7 +35,7 @@ lines(ts,data$Sub_metering_2, col = "red")
 lines(ts,data$Sub_metering_3, col = "blue")
 legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty = c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","red","blue"))
 
-plot(ts,data$Global_reactive_power,type="l",xlab="Global reactive power")
+plot(ts,data$Global_reactive_power,type="l",ylab="Global reactive power",xlab="")
 
 dev.off()
 
