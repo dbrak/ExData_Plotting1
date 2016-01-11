@@ -20,7 +20,6 @@ data[,Global_active_power := as.numeric(as.character(Global_active_power))]
 #Create the PNG file
 png("plot2.png")
 plot(ts,data$Global_active_power,type = "l",xlab= "",ylab = "Global Active Power (kilowatts)")
-axis(1,at=c(0,1440,2880),label=c("Thu","Fri","Sat"))
 dev.off()
 
 
